@@ -1,0 +1,70 @@
+/* Initialization */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    color: #05445e;
+    background-color: #d4f1f4;
+}
+
+/* Navigation Bar Styling */
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 20px;
+    /* border: 5px solid red; */
+    margin-bottom: 5px;
+    background-color: #75e6da;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-part{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}
+.navbar a{
+    text-decoration: none;
+    /* color: #000; */
+    color: #05445e;
+}
+.nav-menu a:hover{
+    color: #189ab4;
+    text-decoration: underline;
+}
+
+/* Image Part Styling // Styled both image and header in the same one */
+.image-part, .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+}
+
+/* Main Content Styling */
+.main{
+    padding: 25px 20px;
+    background-color: #189ab4;
+    margin: 0 auto;
+    width: 75%;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+.sub-content{
+    margin: 5px 10px;
+    text-align: justify;
+}
+
+.footer{
+    /* display: flex; */
+    text-align: center;
+    padding: 25px 20px;
+    background-color: #75e6da;
+    margin: 25px;
+}
