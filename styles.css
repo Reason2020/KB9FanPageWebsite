@@ -113,3 +113,47 @@ button{
     background-color: #05445e;
     color: #d4f1f4;
 }
+
+/* About Page Styling */
+.about-content{
+    width: 75%;
+    margin: 25px auto;
+}
+
+.about-content header{
+    text-align: center;
+}
+
+.about-content .about-main{
+    text-align: justify;
+}
+
+.links h2{
+    text-align: center;
+}
+
+.links .teams{
+    margin: 5px 15px;
+}
+
+.links .teams > li{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Gallery Page Styling */
+.image-grid{
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
